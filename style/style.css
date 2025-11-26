@@ -4,6 +4,7 @@
 }
 * {
   list-style: none;
+  text-decoration: none;
   padding: 0;
   margin: 0;
   color: var(--secondary_color);
@@ -25,19 +26,19 @@ img {
 .nav {
   display: flex;
 }
-ul {
+a {
   padding: 20px;
 }
-ul li {
+ul a {
   display: inline;
   margin-right: 5px;
   padding: 2px;
 }
 
-ul:hover {
+a:hover {
   cursor: pointer;
 }
-li:hover {
+a:hover {
   background-color: var(--secondary_color);
   color: var(--primary_color);
   border-radius: 10%;
