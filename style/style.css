@@ -28,11 +28,13 @@ img {
 }
 a {
   padding: 20px;
+  text-decoration: none;
 }
 ul a {
   display: inline;
   margin-right: 5px;
   padding: 2px;
+  text-decoration: none;
 }
 
 a:hover {
